@@ -1,0 +1,137 @@
+@import "../../global.scss";
+
+.intro {
+  background-image: url("../../../public/assets/background/IntroBackground.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+
+  @include mobile{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left {
+    flex: 0.5;
+    overflow: hidden;
+
+    .imgContainer {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      float: right;
+
+      @include mobile{
+        align-items: center;
+      }
+
+      img {
+        width: 47%;
+        height: 65%;
+        border-radius: 20px;
+
+        @include mobile{
+          height: 85%;
+          width: 67%;
+        }
+      }
+    }
+  }
+  .right {
+    flex: 0.5;
+    position: relative;
+    overflow-y: hidden;
+
+    .wrapper {
+      color: gainsboro;
+      width: 100%;
+      height: 100%;
+      padding-top: 25%;
+      padding-left: 25%;
+      padding-right: 15%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      overflow-y: hidden;
+
+      @include mobile{
+        padding-top: 10%;
+        padding-left: 20%;
+        padding-right: 20%;
+      }
+
+      h1 {
+        font-size: 30px;
+        margin: 10px 0;
+
+        @include mobile{
+          font-size: 20px;
+        }
+      }
+      h2 {
+        font-size: 20px;
+
+        @include mobile{
+          font-size: 12px;
+        }
+      }
+
+      .icon {
+        font-size: 25px;
+
+        @include mobile{
+          font-size: 17px;
+        }
+      }
+      
+      // h3 {
+      //   font-size: 30px;
+
+      //   @include mobile{
+      //     font-size: 20px;
+      //   }
+
+      //   span {
+      //     font-size: inherit;
+      //     color: crimson;
+      //   }
+
+      //   .ityped-cursor {
+      //     animation: blink 1s infinite;
+      //   }
+
+      //   @keyframes blink {
+      //       50%{
+      //           opacity: 1;
+      //       }
+      //       100%{
+      //           opacity: 0;
+      //       }
+      //   }
+      // }
+    }
+    a {
+      position: relative;
+      left: calc(57% - 25px);
+      bottom: 50px;
+
+      @include mobile{
+        left: calc(50% - 25px);
+      }
+
+      img {
+        width: 50px;
+        animation: arrowBlink 2s infinite;
+      }
+
+      @keyframes arrowBlink {
+        100% {
+          opacity: 0;
+        }
+      }
+    }
+  }
+}

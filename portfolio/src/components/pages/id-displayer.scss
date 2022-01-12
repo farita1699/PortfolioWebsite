@@ -1,0 +1,45 @@
+@import "../../global.scss";
+
+.containers{
+    background-image: url("../../../public/assets/background/PortfolioItemBackground.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    position: relative;
+    top: 70px;
+    color: gainsboro;
+    .header{
+        display: flex;
+        height: auto;
+
+        .slider{
+            flex: 0.7;          
+            transition: all 1s ease-out;
+
+            @include mobile {
+            height: 100vh;
+            flex-direction: column;
+            justify-content: center;
+            }
+        }
+        .info{
+            margin: 30px;
+            flex: 0.3;
+            align-items: flex-start;
+            flex-direction: column;
+
+            li{
+                padding-left: 10px;
+            }
+        }
+    }
+    .body{
+        display: flex;
+        width: 95%;
+        height: calc(100vh - 70px);
+        margin: 30px;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
