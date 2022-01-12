@@ -9,7 +9,7 @@ export default function App() {
           <Carousel.Item>
             <img
               className="d-block w-100" style={{width: 800, height: 500, objectFit: "contain", backgroundColor:"black"}}
-  src="../assets/hip-implant/HipImplant.PNG"
+  src="../assets/hip-implant/HipImplant.png"
               alt="Image One"
             />
             <Carousel.Caption>
@@ -20,42 +20,42 @@ export default function App() {
           <Carousel.Item>
             <img
               className="d-block w-100" style={{width: 800, height: 500, objectFit: "contain", backgroundColor:"black"}}
-  src="../assets/hip-implant/NeedStatement.PNG"
+  src="../assets/hip-implant/NeedStatement.png"
               alt="Image Two"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100" style={{width: 800, height: 500, objectFit: "contain", backgroundColor:"black"}}
-  src="../assets/hip-implant/Diagnosis.PNG"
+  src="../assets/hip-implant/Diagnosis.png"
               alt="Image Three"
             />
         </Carousel.Item>
         <Carousel.Item>
             <img
               className="d-block w-100" style={{width: 800, height: 500, objectFit: "contain", backgroundColor:"black"}}
-  src="../assets/hip-implant/DesignAspects.PNG"
+  src="../assets/hip-implant/DesignAspects.png"
               alt="Image Four"
             />
         </Carousel.Item>
         <Carousel.Item>
             <img
               className="d-block w-100" style={{width: 800, height: 500, objectFit: "contain", backgroundColor:"black"}}
-  src="../assets/hip-implant/Conclusion.PNG"
+  src="../assets/hip-implant/Conclusion.png"
               alt="Image Five"
             />
         </Carousel.Item>
         <Carousel.Item>
             <img
               className="d-block w-100" style={{width: 800, height: 500, objectFit: "contain", backgroundColor:"black"}}
-  src="../assets/hip-implant/References.PNG"
+  src="../assets/hip-implant/References.png"
               alt="Image Six"
             />
         </Carousel.Item>
         <Carousel.Item>
             <img
               className="d-block w-100" style={{width: 800, height: 500, objectFit: "contain", backgroundColor:"black"}}
-  src="../assets/hip-implant/Poster.PNG"
+  src="../assets/hip-implant/Poster.png"
               alt="Image Seven"
             />
         </Carousel.Item>
