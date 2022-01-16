@@ -29,8 +29,9 @@
       }
 
       img {
-        height: 85%;
-        width: 67%;
+        height: auto;
+        width: 65%;
+        max-height: 100%;
         border-radius: 20px;
       }
     }
