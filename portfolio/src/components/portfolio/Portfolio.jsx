@@ -35,7 +35,7 @@ export default function Portfolio() {
   ];
 
   useEffect(async () => {
-    let response = await fetch("http://localhost:8000/api/featured-projects");
+    let response = await fetch("https://jerrywan-api.herokuapp.com/api/featured-projects");
     let data = await response.json();
     setFeatured(data);
 
@@ -43,19 +43,19 @@ export default function Portfolio() {
       setData(data);
     }
 
-    response = await fetch("http://localhost:8000/api/web-projects");
+    response = await fetch("https://jerrywan-api.herokuapp.com/api/web-projects");
     data = await response.json();
     setWeb(data);
 
-    response = await fetch("http://localhost:8000/api/health-projects");
+    response = await fetch("https://jerrywan-api.herokuapp.com/api/health-projects");
     data = await response.json();
     setHealth(data);
 
-    response = await fetch("http://localhost:8000/api/mechatronics-projects");
+    response = await fetch("https://jerrywan-api.herokuapp.com/api/mechatronics-projects");
     data = await response.json();
     setMechatronics(data);
 
-    response = await fetch("http://localhost:8000/api/other-projects");
+    response = await fetch("https://jerrywan-api.herokuapp.com/api/other-projects");
     data = await response.json();
     setOther(data);
 
