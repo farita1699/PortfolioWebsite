@@ -14,6 +14,7 @@
   .left {
     flex: 0.5;
     overflow: hidden;
+    align-self: center;
 
     .imgContainer {
       width: 100%;
@@ -28,14 +29,9 @@
       }
 
       img {
-        width: 47%;
-        height: 65%;
+        height: 85%;
+        width: 67%;
         border-radius: 20px;
-
-        @include mobile{
-          height: 85%;
-          width: 67%;
-        }
       }
     }
   }
