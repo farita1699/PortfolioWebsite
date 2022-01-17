@@ -1,7 +1,6 @@
 @import "../../global.scss";
 
 .intro {
-  position: absolute;
   width: 100%;
   height: 100%;
   background-image: url("../../../public/assets/background/RedAndBlue.jpg");
@@ -24,8 +23,6 @@
     height: 60px;
     width: 60px;
     position: absolute;
-    top: 10%;
-    left: 10%;
     animation: animate 4s linear infinite;
     background-color: rgba(255,255,255,.5);
     border-radius: 12px;
