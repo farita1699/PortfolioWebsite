@@ -1,13 +1,23 @@
 import "./intro.scss";
 // import { init } from "ityped";
-import {useRef } from "react";
 import {SentimentSatisfiedAlt} from "@material-ui/icons";
 
 export default function Intro() {
-  const textRef = useRef();
 
   return (
     <div className="intro" id="intro">
+      <div className="box">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
       <div className="left">
         <div className="imgContainer">
           <img src="assets/Profile_Pic_New.jpg" alt="" />
