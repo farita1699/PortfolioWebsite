@@ -16,7 +16,7 @@
   .box {
     position: absolute;
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 70px);
   }
 
   .box div {
@@ -82,9 +82,14 @@
   @keyframes animate {
     0% {
     transform: scale(0) translateY(0) rotate(50deg);
+    opacity: 100%;
+    }
+    60% {
+      opacity: 100%;
     }
     100% {
     transform: scale(1) translateY(-400px) rotate(360deg);
+    opacity: 0%;
     }
   }
 
