@@ -19,9 +19,9 @@ export default function CrossyRoad() {
                     <li>Jerry Wan</li>
                     <h2>Date</h2>
                     <li>Jan 2020</li>
-                    <h2>Carousel Settings</h2>
+                    <h2>Slider Settings</h2>
                     <button onClick={()=>setControlShow(!controlShow)}>
-                    Hide/Shown Carousel Controls
+                    Hide/Shown Slider Controls
                     </button>
                 </div>
 

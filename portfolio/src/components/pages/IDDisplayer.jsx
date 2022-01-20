@@ -18,9 +18,9 @@ export default function IDDisplayer() {
                     <li>Jerry Wan</li>
                     <h2>Date</h2>
                     <li>Dec 2021</li>
-                    <h2>Carousel Settings</h2>
+                    <h2>Slide Settings</h2>
                     <button onClick={()=>setControlShow(!controlShow)}>
-                    Hide/Shown Carousel Controls
+                    Hide/Shown Slider Controls
                     </button>
                 </div>
 
