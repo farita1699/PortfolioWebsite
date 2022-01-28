@@ -18,6 +18,9 @@ export default function Intro() {
         <div></div>
         <div></div>
       </div>
+      <a href="#portfolio">
+        <img src="assets/down.png" alt="" />
+      </a>
       <div className="left">
         <div className="imgContainer">
           <img src="assets/Profile_Pic_New.jpg" alt="" />
@@ -34,9 +37,6 @@ export default function Intro() {
              </h2>
              <SentimentSatisfiedAlt className="icon" />
         </div>
-        <a href="#portfolio">
-          <img src="assets/down.png" alt="" />
-        </a>
       </div>
     </div>
   );

@@ -93,6 +93,24 @@
     }
   }
 
+  a {
+    position: absolute;
+    left: calc(50% - 25px);
+    bottom: 2vh;
+    z-index: 100;
+
+    img {
+      width: 50px;
+      animation: arrowBlink 2s infinite;
+    }
+
+    @keyframes arrowBlink {
+      100% {
+        opacity: 0;
+      }
+    }
+  }
+
   .left {
     flex: 0.5;
     overflow: hidden;
@@ -104,7 +122,6 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      float: right;
 
       @include mobile{
         align-items: center;
@@ -116,6 +133,11 @@
         max-height: 100%;
         border-radius: 20px;
         z-index: 0;
+
+        @include mobile{
+          width: 75%;
+        }
+
       }
     }
   }
@@ -138,22 +160,29 @@
       overflow-y: hidden;
 
       @include mobile{
-        padding-top: 10%;
+        padding-top: 0%;
         padding-left: 20%;
         padding-right: 20%;
       }
 
       h1 {
-        font-size: 30px;
+        font-size: 4vmin;
         margin: 10px 0;
+
+        @include mobile{
+          font-size: 4vmax;
+        }
+
       }
       h2 {
-        font-size: 20px;
+        font-size: 2vmin;
+
+        @include mobile{
+          font-size: 2vmax;
+        }
+
       }
 
-      .icon {
-        font-size: 25px;
-      }
       
       // h3 {
       //   font-size: 30px;
@@ -180,26 +209,6 @@
       //       }
       //   }
       // }
-    }
-    a {
-      position: relative;
-      left: calc(57% - 25px);
-      bottom: 50px;
-
-      @include mobile{
-        left: calc(50% - 25px);
-      }
-
-      img {
-        width: 50px;
-        animation: arrowBlink 2s infinite;
-      }
-
-      @keyframes arrowBlink {
-        100% {
-          opacity: 0;
-        }
-      }
     }
   }
 }
